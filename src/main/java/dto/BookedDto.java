@@ -4,17 +4,14 @@ import lombok.*;
 
 @Getter
 @Setter
+@NoArgsConstructor
 @Builder
 @ToString
 @AllArgsConstructor
-@NoArgsConstructor
-
 
 public class BookedDto {
+    private String email;
+    private String startDate;
+    private String endDate;
 
-    private  String email;
-    private  String startDate;
-    private  String endDate;
-    }
-
-
+}

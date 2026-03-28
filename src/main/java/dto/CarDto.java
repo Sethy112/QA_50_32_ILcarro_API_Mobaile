@@ -1,13 +1,13 @@
 package dto;
+
 import lombok.*;
 
-@Getter
-@Setter
-@Builder
 @ToString
 @AllArgsConstructor
+@Builder
 @NoArgsConstructor
-
+@Setter
+@Getter
 
 public class CarDto {
     private String serialNumber;
@@ -25,6 +25,5 @@ public class CarDto {
     private String image;
     private String owner;
 
-    BookedDto[] bookedPeriod;
-
+    BookedDto[] bookedPeriods;
 }
